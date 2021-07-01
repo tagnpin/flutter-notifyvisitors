@@ -1,0 +1,26 @@
+name: flutter_notifyvisitors
+description: A NotifyVisitors Flutter plugin.
+version: 1.0.0
+homepage: https://github.com/tagnpin/flutter-notifyvisitors
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.flutter.notifyvisitors
+        pluginClass: NotifyvisitorsPlugin
+      ios:
+        pluginClass: NotifyvisitorsPlugin
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+environment:
+  sdk: ">=2.0.0 <3.0.0"
+  flutter: ">=1.10.0"
